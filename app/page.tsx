@@ -5,6 +5,7 @@ import EmptyState from '@/app/components/EmptyState';
 import getListings, { IListingsParams } from '@/app/actions/getListings';
 import getCurrentUser from '@/app/actions/getCurrentUser';
 import ClientOnly from './components/ClientOnly';
+import { Bs0Circle } from 'react-icons/bs';
 
 interface HomeProps {
   searchParams: IListingsParams;
